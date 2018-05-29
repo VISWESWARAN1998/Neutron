@@ -1,5 +1,5 @@
 ![Neutron Logo](img/logo.jpg)
-##### *The decentralized e-commerce solution*
+##### *The decentralized e-commerce solution (backend-restful service)*
 
 ##### Abstract:
 The main aim of the project “Neutron” is to deliver the products ordered by the customers within a day to them. In a conventional e-commerce store when a customer places an order the product is taken from the warehouse of the e-commerce site and will be delivered to them; this process might take several days. But in Neutron, which is completely decentralized holds no warehouses. In Neutron there are three main components present, </br>
@@ -10,11 +10,11 @@ The main aim of the project “Neutron” is to deliver the products ordered by the 
 4.	Product.
 
 
-**BUYER:**
+**BUYER:** </br>
 The buyer is a person who buys a particular product(s). </br>
-**SELLER:**
+**SELLER:** </br>
 The seller is a person who sells a particular product(s). </br>
-**PRODUCT**
+**PRODUCT** </br>
 An object or a thing which a buyer buys or a seller sells. </br>
 
 The web service allows as many as needed number of buyers and sellers to register. The accurate geo-location like latitude, longitudes to identify a buyer’s/seller’s location will be stored in the database. If a buyer searches for the particular product the web service will start looking for the nearest possible sellers who is selling the same product and will display the result to the buyer who has queried for the product. Once the order is confirmed the product will be delivered on the same day (Since the product will be delivered by the nearby seller). A simple use case diagram explaining the working of the project is given below. Note: Use cases of the complete architecture will be given in the description. </br>
@@ -59,6 +59,7 @@ The initial stage of signup requires only the buyer’s phone number and hash of t
 
 If anything fails in the above transaction ABORT will be called. So, if a successful COMMIT occurs. </br>
 
+*yet to be updated*
 
 
 
