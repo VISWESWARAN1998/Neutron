@@ -59,7 +59,8 @@ The initial stage of signup requires only the buyer’s phone number and hash of t
 
 If anything fails in the above transaction ABORT will be called. So, if a successful COMMIT occurs. </br>
 
-*yet to be updated*
+*yet to be updated* </br>
+![Neutron Banner](img/lower_banner.png)
 
 
 
